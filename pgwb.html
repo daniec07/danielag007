@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre mí</title>
+  <!-- Vinculando Bootstrap desde un CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEJx3+bb39el2ra8ByWQ2XyXX0O8qZls6ZtFf5kKyOZz+2w+/4eXGH8FJ4g78" crossorigin="anonymous">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0e4d7; /* Color pastel de fondo */
+      color: #333;
+      padding: 0;
+      margin: 0;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      background: linear-gradient(145deg, #f6b6d0, #f3c1d6); /* Fondo en colores pastel */
+    }
+
+    h1 {
+      color: #8f7ff7; /* Color pastel violeta */
+      font-size: 2.5em;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1.2em;
+      line-height: 1.6em;
+      text-align: center;
+    }
+
+    .image-container {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .image-container img {
+      width: 120px;
+      margin: 10px;
+      border-radius: 50%;
+    }
+
+    .img-banner {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 30px;
+      color: #8f7ff7;
+    }
+
+    .button {
+      display: block;
+      background-color: #8f7ff7;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      border-radius: 25px;
+      margin-top: 20px;
+      text-decoration: none;
+      font-weight: bold;
+      width: 200px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .button:hover {
+      background-color: #7a6bcf;
+    }
+
+    .section-title {
+      font-size: 1.8em;
+      color: #8f7ff7;
+      margin-top: 30px;
+      margin-bottom: 20px;
+    }
+
+    .section {
+      margin-bottom: 30px;
+    }
+
+    .flower-icon {
+      width: 50px;
+      margin-top: 20px;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container mt-5">
+    <!-- Imagen de banner o fondo -->
+    <img src="https://www.w3schools.com/w3images/fjords.jpg" alt="Banner" class="img-banner">
+
+    <h1>Hola, soy Daniela Gabriela</h1>
+
+    <div class="section">
+      <h2 class="section-title">Acerca de mí</h2>
+      <p>Soy una persona apasionada por estudiar. Me encanta aprender cosas nuevas, especialmente sobre lenguajes y la tierra.</p>
+      <p>En mi tiempo libre disfruto bailar.</p>
+      <p>Tengo 17 años y mi cumpleaños es el 07 de febrero de 2008.</p>
+      <p>Cuando sea grande, sueño con ser doctora y tener el carro de mis sueños.</p>
+    </div>
+
+    <div class="section">
+      <h2 class="section-title">Mis Estudios</h2>
+      <p>Actualmente estudio en el Bachillerato de Ciencias en la Escuela Secundaria Técnica #5, ubicada en la ciudad de <strong>La Pesa</strong>.</p>
+      <p>Uno de mis sueños es poder ser doctora y estudiar más profundamente sobre el cuerpo humano.</p>
+    </div>
+
+    <div class="section">
+      <h2 class="section-title">Mi Colegio</h2>
+      <p>Estoy cursando la secundaria en el <strong>Colegio Ingeniero Tomás Guardia</strong>, donde tengo la oportunidad de aprender mucho sobre diversas materias, desde matemáticas hasta ciencias.</p>
+    </div>
+
+    <div class="section">
+      <h2 class="section-title">Mi Hogar</h2>
+      <p>Vivo en un hermoso lugar llamado <strong>La Pesa</strong>, un pequeño pero acogedor lugar que me ha enseñado muchas cosas sobre la vida y la naturaleza.</p>
+    </div>
+
+    <div class="section">
+      <h2 class="section-title">Mis Sueños</h2>
+      <p>Cuando sea grande, sueño con ser doctora, ayudando a las personas a mejorar su salud y bienestar. También sueño con tener el carro de mis sueños, un símbolo de la independencia y el éxito personal.</p>
+    </div>
+
+    <div class="image-container">
+      <!-- Muñequitos y florecitas -->
+      <img src="https://www.pngmart.com/files/11/Cartoon-Girl-PNG-Transparent-Image.png" alt="Muñequita" class="img-fluid">
+      <img src="https://www.pngall.com/wp-content/uploads/5/Flower-PNG-Free-Download.png" alt="Florecita" class="flower-icon">
+      <img src="https://www.pngall.com/wp-content/uploads/5/Flower-PNG-Free-Download.png" alt="Florecita" class="flower-icon">
+    </div>
+
+    <a href="mailto:daniela@example.com" class="button">¡Contáctame!</a>
+
+    <footer>
+      <p>Gracias por visitar esta pequeña página sobre mí.</p>
+    </footer>
+  </div>
+
+  <!-- Vinculando JavaScript de Bootstrap (opcional, pero necesario para algunos componentes interactivos) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pzjw8f+ua7Kw1TIq0v8Fq0jkljFVNUhjp7XVuI6F7KROeOthlVdLhM1QpVr8Oqgk" crossorigin="anonymous"></script>
+</body>
+</html>
